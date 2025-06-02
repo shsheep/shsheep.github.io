@@ -11,7 +11,6 @@ FAIL_COUNT=0
 for CHANGED_FILE in $CHANGE_LIST; do
     echo "이미지경로를 교정할 문서 파일: [$CHANGED_FILE]"
 
-    # shouts 변경사항(2022-12-22)
     # uuid 검색 패턴 변경
 
     # RESOURCE_DIR=`head $CHANGED_FILE | egrep -o '[A-F0-9-]{2}/[A-F0-9-]{34}$'`
@@ -26,7 +25,6 @@ for CHANGED_FILE in $CHANGE_LIST; do
     # URI_LIST=`ag "https://pbs.twimg.com/media/.*?(png|jpg|gif|mp4)" -o $CHANGED_FILE`
     # URI_LIST=`ag "https://((user-images\.githubuser.*?\/$NUM\/)|(pbs.twimg.com/media/)|(video.twimg.com/.+_video/)).*?(png|jpg|gif|mp4)" -o $CHANGED_FILE`
 
-    # shouts 변경사항(2022-12-22)
     # \/$NUM\/ 패턴으로 검색이 안되서 임시 제외
     URI_LIST=`ag "https://((user-images\.githubuser.*?)|(pbs.twimg.com/media/)|(video.twimg.com/.+_video/)).*?(png|jpg|gif|mp4)" -o $CHANGED_FILE`
 

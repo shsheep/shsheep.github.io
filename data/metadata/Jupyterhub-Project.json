@@ -1,0 +1,10 @@
+{
+ "type": "wiki",
+ "title": "Jupyterhub-Project",
+ "summary": "윈도우에서 도커 엔진으로 Jupyterhub 운영이 가능하다.",
+ "parent": "Project",
+ "url": "/wiki/Jupyterhub-Project",
+ "updated": "2023-02-25 16:20:42 +0900",
+ "resource": "3b/303e12-70e9-44aa-9bdc-b6dff6cc3b64",
+ "children": []
+}

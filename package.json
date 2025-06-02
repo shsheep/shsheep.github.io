@@ -1,0 +1,23 @@
+{
+  "name": "shsheep.github.io",
+  "version": "1.0.0",
+  "description": "data generator",
+  "main": "generateData.js",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "yamljs": "^0.3.0"
+  },
+  "scripts": {
+    "test": "echo no test found"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shsheep/shsheep.github.io.git"
+  },
+  "author": "shsheep",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shsheep/shsheep.github.io/issues"
+  },
+  "homepage": "https://github.com/shsheep/shsheep.github.io#readme"
+}

@@ -1,0 +1,68 @@
+# Site settings
+title: Agility is my middle name
+url: "https://shsheep.github.io"
+baseurl: ""
+description: >
+    shsheep 블로그
+
+# My information
+email: sh_sheep@naver.com
+author: shsheep
+profile: git gud :(
+github_username: shsheep 
+comment-support: utterances
+
+# Build settings
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+
+permalink: /blog/:year/:month/:day/:title/
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+paginate: 10
+paginator_path: "/blog"
+paginate_path: "/blog/page:num/"
+
+# Collections
+collections:
+    wiki:
+        output: true
+        permalink: /:collection/:path/
+
+# Comment Service
+disqus:
+  id: shsheep
+  shortname: shsheep 
+utterances:
+  repo: shsheep/shsheep.github.io
+  issue-term: url
+  label: Comment
+  branch: master
+
+giscus:
+  repo: shsheep/shsheep.github.io
+  repo_id: R_kgDOIpvPCA
+  category: Announcements
+  category_id: DIC_kwDOIpvPCM4CTabv
+
+google_analytics:
+  ua:
+
+google_adsense:
+  client:
+
+blame: "https://github.com/shsheep/shsheep.github.io/blame/master/_wiki"
+edit: "https://github.com/shsheep/shsheep.github.io/edit/master/_wiki"
+issue: "https://github.com/shsheep/shsheep.github.io/issues/new"
+
+timezone: "Asia/Seoul"
+
+# https://kramdown.gettalong.org/rdoc/Kramdown/Options.html - smart_quotes
+kramdown:
+    smart_quotes: ["apos", "apos", "quot", "quot"]
